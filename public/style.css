@@ -28,3 +28,18 @@ img{max-width:100%}header,main,footer{min-width:0}.grid>*,.intro>*,.ai>*,.contac
  .hero .hero-copy .btn{position:relative;z-index:1;margin-bottom:0}
  .hero h1{font-size:clamp(42px,5.5vw,80px);line-height:1.1}
 }
+/* Improve readability of the banner navigation. */
+.hero .tabs{column-gap:18px}
+.hero .tabs button{font-size:16px;font-weight:600;line-height:1.5;color:#e8f0ea;min-height:100px;padding:20px 2px;text-align:left}
+.hero .tabs small{font-size:11px;font-weight:400;line-height:1.5;letter-spacing:.2px;color:#cfddd5;margin-bottom:10px}
+.hero .tabs button.active{color:#fff}
+.hero .tabs button:hover{color:var(--lime)}
+@media(min-width:701px) and (max-width:1150px){.hero .tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 20px}.hero .tabs button{font-size:16px;min-height:88px;padding:17px 0}}
+@media(max-width:700px){.hero .tabs{column-gap:16px}.hero .tabs button{font-size:15px;min-height:88px;padding:16px 0}.hero .tabs small{font-size:11px;letter-spacing:0;margin-bottom:7px}}
+/* Banner autoplay controls */
+.hero-media{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.hero-media>img{width:100%;height:100%;object-fit:cover}
+.banner-control-row{position:relative;z-index:2;display:flex;justify-content:flex-end;margin:0 7% 12px}
+.banner-toggle{color:white;background:#092e2bd9;border:1px solid #aec3b780;padding:10px 16px;min-height:44px;font-size:12px;cursor:pointer}
+.banner-toggle:hover{border-color:var(--lime);color:var(--lime)}
+@media(max-width:700px){.hero-media>img{object-position:65% center}.banner-control-row{margin:0 6% 12px}}

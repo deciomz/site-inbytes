@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {test} from 'node:test';
+const code=fs.readFileSync(new URL('../public/app.js',import.meta.url),'utf8');
+function harness(reduced=false){let pending,delay;let hovered=false,focused=false,rootPresent=true;const toggle={setAttribute(){}};const buttons=[0,1,2].map(i=>({dataset:{slide:String(i)}}));const root={isConnected:true,matches:()=>hovered,contains:()=>focused,getBoundingClientRect:()=>({top:0,bottom:600}),querySelector:()=>toggle,querySelectorAll:()=>buttons};const context={slide:0,projects:[1,2,3],heroPaused:undefined,heroHovered:false,heroTimer:null,paintHero(){},window:{matchMedia:()=>({matches:reduced}),siteTranslate:x=>x,innerHeight:800},document:{hidden:false,activeElement:null,querySelector:()=>rootPresent?root:null},setTimeout:(fn,ms)=>{pending=fn;delay=ms;return 1;},clearTimeout:()=>{pending=null;}};vm.createContext(context);vm.runInContext(code.slice(code.indexOf('function setupHero(){'),code.indexOf('function render(){')),context);vm.runInContext('setupHero()',context);return {context,root,toggle,buttons,delay:()=>delay,tick(){assert.ok(pending);const fn=pending;pending=null;fn();},hasTimer:()=>!!pending,focus:v=>focused=v,leaveRoute(){rootPresent=false;vm.runInContext('setupHero()',context);}};}
+test('rotação a cada 7 segundos e volta ao início',()=>{const h=harness();assert.equal(h.delay(),7000);h.tick();assert.equal(h.context.slide,1);h.tick();h.tick();assert.equal(h.context.slide,0);});
+test('pausa manual e retoma',()=>{const h=harness();h.toggle.onclick();assert.equal(h.hasTimer(),false);h.toggle.onclick();assert.equal(h.hasTimer(),true);});
+test('rato, foco e separador oculto suspendem mudança',()=>{const h=harness();h.root.onmouseenter();h.tick();assert.equal(h.context.slide,0);h.root.onmouseleave();h.focus(true);h.tick();assert.equal(h.context.slide,0);h.focus(false);h.context.document.hidden=true;h.tick();assert.equal(h.context.slide,0);h.context.document.hidden=false;h.tick();assert.equal(h.context.slide,1);});
+test('seleção manual funciona e reinicia o tempo',()=>{const h=harness();h.buttons[2].onclick();assert.equal(h.context.slide,2);assert.equal(h.delay(),7000);});
+test('sair da página inicial cancela o temporizador',()=>{const h=harness();h.leaveRoute();assert.equal(h.hasTimer(),false);});
+test('movimento reduzido começa em pausa',()=>{const h=harness(true);assert.equal(h.hasTimer(),false);h.toggle.onclick();assert.equal(h.hasTimer(),true);});
