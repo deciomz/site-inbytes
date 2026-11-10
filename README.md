@@ -41,8 +41,14 @@ Para alterações ao conteúdo ou ao menu, editar public/app.js, public/routes.j
 node scripts/build-pages.mjs
 ```
 
-O gerador usa só módulos integrados do Node, sem dependências, e verifica as 17 páginas e as referências internas. Node não é necessário no VPS: publicar os ficheiros HTML já gerados.
+O gerador usa só módulos integrados do Node, sem dependências, e verifica as 18 páginas e as referências internas. Node não é necessário no VPS: publicar os ficheiros HTML já gerados.
 
 Por decisão do proprietário, não manter nem redirecionar as URLs antigas do WordPress. O Nginx deve continuar com try_files $uri $uri/ =404, sem encaminhar qualquer URL inexistente para a página inicial. Não substituir a configuração HTTPS atual pelo exemplo HTTP do repositório. Não criar regras globais de redirecionamento para a homepage.
 
 Depois da publicação: limpar a cache do Cloudflare, confirmar 200 nas páginas novas e sitemap, e 404 nos endereços antigos removidos (por exemplo /contact/ e /e-cadastro/). Enviar sitemap.xml na propriedade inbytes.co.mz do Search Console e pedir indexação das páginas principais. O Google gere a escolha dos sitelinks e o prazo da atualização; o sitemap não impõe os atalhos apresentados. Os pedidos e verificações no Search Console ainda não foram realizados.
+
+## Ficha em Dia
+
+Página promocional em /ficha/, integrada a partir do ZIP fornecido pelo proprietário. Mantém o conteúdo e o preço de 3.500 MT por mês por escola, contratação possível de apenas um mês e contactos originais. Imagem em public/assets/ficha-familia.png e estilos isolados em public/ficha.css. Tradução PT/EN, cartão em Produtos e Sistemas e entrada no sitemap. Não contém formulário de inscrição nem recolha de dados de alunos.
+
+Verificado localmente em 320, 390 e 1024 píxeis, em português e inglês, sem deslocamento horizontal. O endereço público só fica disponível depois do carregamento no VPS.

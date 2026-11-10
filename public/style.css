@@ -43,3 +43,10 @@ img{max-width:100%}header,main,footer{min-width:0}.grid>*,.intro>*,.ai>*,.contac
 .banner-toggle{color:white;background:#092e2bd9;border:1px solid #aec3b780;padding:10px 16px;min-height:44px;font-size:12px;cursor:pointer}
 .banner-toggle:hover{border-color:var(--lime);color:var(--lime)}
 @media(max-width:700px){.hero-media>img{object-position:65% center}.banner-control-row{margin:0 6% 12px}}
+/* Compact icon control and consistent spacing between product names. */
+.hero .tabs{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));column-gap:18px}
+.hero .tabs .tab-arrow{display:inline-block;margin-left:10px;float:none;white-space:nowrap}
+.banner-toggle{display:grid;place-items:center;width:44px;height:44px;min-width:44px;padding:0;line-height:1}
+.banner-toggle svg{display:block;width:22px;height:22px}
+@media(min-width:701px) and (max-width:1150px){.hero .tabs{grid-template-columns:repeat(3,minmax(0,1fr));column-gap:20px}}
+@media(max-width:700px){.hero .tabs{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:16px}.hero .tabs .tab-arrow{margin-left:6px}}
