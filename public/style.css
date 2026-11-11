@@ -50,3 +50,22 @@ img{max-width:100%}header,main,footer{min-width:0}.grid>*,.intro>*,.ai>*,.contac
 .banner-toggle svg{display:block;width:22px;height:22px}
 @media(min-width:701px) and (max-width:1150px){.hero .tabs{grid-template-columns:repeat(3,minmax(0,1fr));column-gap:20px}}
 @media(max-width:700px){.hero .tabs{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:16px}.hero .tabs .tab-arrow{margin-left:6px}}
+/* Seven featured projects, with readable selectors at each breakpoint. */
+@media(min-width:1400px){.hero .tabs{grid-template-columns:repeat(7,minmax(0,1fr));column-gap:16px}}
+@media(min-width:1151px) and (max-width:1399px){.hero .tabs{grid-template-columns:repeat(4,minmax(0,1fr));column-gap:20px}}
+
+/* Keep all banner names on the same baseline, including wrapped categories. */
+.hero .tabs button{display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch}
+.hero .tabs small{min-height:3em}
+.hero .tabs .tab-label{display:flex;align-items:baseline;gap:8px}
+.hero .tabs .tab-label>span:first-child{min-width:0}
+.hero .tabs .tab-label .tab-arrow{margin-left:0;flex-shrink:0}
+
+
+.visual:has(.website-screenshot){background:#fff}.visual>img.website-screenshot{object-fit:contain;object-position:top center}
+
+
+/* Full language names, with space reserved for the mobile menu. */
+@media(max-width:700px){header{padding-inline:4%;gap:6px}header>.logo{font-size:30px}header>.logo small{font-size:5px;letter-spacing:1.6px}.language-switch button{font-size:11px;padding:8px 5px;min-width:0}#menu{width:36px;min-width:36px}}
+
+.service-faq{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px}.service-faq article{border-top:1px solid #c1cdbd;padding-top:20px}.service-faq h3{font-size:24px}.detail>p{max-width:75ch}@media(max-width:700px){.service-faq{grid-template-columns:1fr;gap:24px}}
