@@ -111,3 +111,6 @@ header nav{gap:19px}.nav-contact{display:none}
 @media(max-width:1100px){.editorial-description{font-size:16px}.editorial-intro .editorial-philosophy{font-size:22px}}
 @media(max-width:800px){.editorial-intro .editorial-philosophy{font-size:22px;max-width:24ch}}
 @media(max-width:550px){.editorial-statement h1{font-size:clamp(29px,8.5vw,46px);line-height:1.12}.editorial-description{font-size:15px;line-height:1.65;margin-top:21px;max-width:35ch}.editorial-intro .editorial-philosophy{font-size:20px;line-height:1.4;margin-bottom:20px}}
+
+/* Equal weight and spacing for the three opening project links. */
+.opening-projects{grid-template-columns:repeat(3,minmax(0,1fr))}
