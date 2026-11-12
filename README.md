@@ -1,6 +1,6 @@
 # Inbytes website
 
-Website corporativo da Inbytes: HTML, CSS e JavaScript, com formulário PHP para Resend e Cloudflare Turnstile. Português e inglês, com preferência de idioma guardada no navegador.
+Website corporativo da Inbytes: HTML, CSS e JavaScript, com formulário PHP para Resend e Cloudflare Turnstile. Português e inglês em endereços próprios, definidos pelo idioma da página.
 
 ## Estrutura
 
@@ -33,7 +33,7 @@ Ao publicar, carregar apenas o conteúdo de `public/` para a raiz pública, mant
 
 ## Indexação Google — versão de 9 de novembro de 2026
 
-As páginas atuais usam URLs próprias (sem fragmentos #), HTML com conteúdo pré-gerado, título e descrição por página e canonical. Sitemap em /sitemap.xml, robots.txt em /robots.txt. Os botões PT/EN continuam a traduzir o conteúdo no navegador; não existem URLs inglesas separadas nem hreflang nesta versão.
+As páginas atuais usam URLs próprias (sem fragmentos #), HTML com conteúdo pré-gerado, título e descrição por página e canonical. Sitemap em /sitemap.xml, robots.txt em /robots.txt. Desde a revisão de 12/11/2026, existe uma versão inglesa em /en/ com canonical e hreflang próprios.
 
 Para alterações ao conteúdo ou ao menu, editar public/app.js, public/routes.js e/ou src/shell.html, atualizar as traduções em public/i18n.js e executar localmente:
 
@@ -41,7 +41,7 @@ Para alterações ao conteúdo ou ao menu, editar public/app.js, public/routes.j
 node scripts/build-pages.mjs
 ```
 
-O gerador usa só módulos integrados do Node, sem dependências, e verifica as 22 páginas e as referências internas. Node não é necessário no VPS: publicar os ficheiros HTML já gerados.
+O gerador usa só módulos integrados do Node, sem dependências, e verifica as páginas dos dois idiomas e as referências internas. Node não é necessário no VPS: publicar os ficheiros HTML já gerados.
 
 Não recuperar as páginas antigas do WordPress. Em 11/11/2026, o proprietário pediu a correção de dois links antigos ainda apresentados no Google; apenas esses dois têm redirecionamentos permanentes preparados em deploy/google-links.conf para as páginas atuais de sistemas e websites. O Nginx deve continuar com try_files $uri $uri/ =404, sem encaminhar qualquer URL inexistente para a página inicial. Não substituir a configuração HTTPS atual pelo exemplo HTTP do repositório. Não criar regras globais de redirecionamento para a homepage.
 
@@ -67,3 +67,15 @@ Páginas atuais de websites, sistemas e apps: título e descrição próprios, H
 Após publicar, solicitar indexação das três páginas no Search Console. Acompanhar em Desempenho as consultas, impressões, cliques e páginas; comparar períodos antes de avaliar alterações. Perfil da Empresa no Google e referências reais de clientes são próximos passos gratuitos, a gerir pelo proprietário. Não comprar links ou inventar avaliações. Nenhuma alteração garante primeiro lugar.
 
 Direção comercial revista pelo proprietário: os serviços dirigem-se a clientes sem limitação geográfica. Títulos, descrições, apresentação inicial e chamadas comerciais não restringem o mercado a Moçambique nem acrescentam slogans sobre atuação mundial. A origem da empresa, a sede e o contexto real de cada projeto continuam identificados quando relevantes.
+
+## Revisão editorial e visual — 12/11/2026
+
+Versão local para validação do proprietário. Abertura institucional, seleção de quatro projetos, banner móvel compacto com anterior/seguinte/pausa, contactos no menu móvel, cabeçalhos de projeto separados das capturas, âmbito de design e desenvolvimento confirmado, formulário com contexto e página de privacidade. Não publicar ecrãs privados do JMembros ou testemunhos. A página de IA descreve aplicações e critérios de avaliação, sem apresentar casos demonstráveis inexistentes.
+
+Cada página tem uma versão inglesa em /en/, HTML traduzido, canonical próprio e alternates pt/en/x-default; o sitemap inclui os dois idiomas. O endereço define o idioma e o seletor preserva o assunto do contacto. Os caminhos portugueses existentes são mantidos, tal como os redirecionamentos Nginx específicos.
+
+Pré-visualização: python -m http.server 4200 --bind 127.0.0.1 --directory public. Abrir http://127.0.0.1:4200/. Neste endereço o formulário valida os campos, mas não envia emails. Em produção mantém a API PHP existente e inclui o assunto no corpo da mensagem; não é necessário substituir a configuração privada. Testar o envio no VPS após uma eventual publicação.
+
+Verificações: node scripts/build-pages.mjs; node --test scripts/*.test.mjs. Ainda sem publicação desta revisão no VPS e sem push solicitado para esta versão.
+
+Abertura revista após feedback visual: imagem ampla, tipografia assimétrica sem palavras coloridas, chamada de contacto discreta e índice plano de três projetos. A captura do SINPOCAF mantém-se no índice; a imagem ferroviária de fundo é uma ilustração já existente, identificada no texto alternativo. Restantes páginas e banner de produtos preservados.

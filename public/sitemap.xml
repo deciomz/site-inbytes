@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://inbytes.co.mz/</loc></url>
-  <url><loc>https://inbytes.co.mz/sobre/</loc></url>
-  <url><loc>https://inbytes.co.mz/servicos/</loc></url>
-  <url><loc>https://inbytes.co.mz/inteligencia-artificial/</loc></url>
-  <url><loc>https://inbytes.co.mz/produtos/</loc></url>
-  <url><loc>https://inbytes.co.mz/portfolio/</loc></url>
-  <url><loc>https://inbytes.co.mz/contactos/</loc></url>
-  <url><loc>https://inbytes.co.mz/caderneta/</loc></url>
-  <url><loc>https://inbytes.co.mz/produtos/jmembros/</loc></url>
-  <url><loc>https://inbytes.co.mz/portais/agrario/</loc></url>
-  <url><loc>https://inbytes.co.mz/portais/casas/</loc></url>
-  <url><loc>https://inbytes.co.mz/websites/sinpocaf/</loc></url>
-  <url><loc>https://inbytes.co.mz/websites/sintrat/</loc></url>
-  <url><loc>https://inbytes.co.mz/servicos/websites/</loc></url>
-  <url><loc>https://inbytes.co.mz/servicos/sistemas/</loc></url>
-  <url><loc>https://inbytes.co.mz/servicos/apps/</loc></url>
-  <url><loc>https://inbytes.co.mz/servicos/consultoria/</loc></url>
-  <url><loc>https://inbytes.co.mz/ficha/</loc></url>
-  <url><loc>https://inbytes.co.mz/websites/sinpeoc/</loc></url>
-  <url><loc>https://inbytes.co.mz/websites/sweetandsalt/</loc></url>
-  <url><loc>https://inbytes.co.mz/websites/indicofishfarm/</loc></url>
-  <url><loc>https://inbytes.co.mz/websites/gawane/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://inbytes.co.mz/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/"/></url>
+  <url><loc>https://inbytes.co.mz/en/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/"/></url>
+  <url><loc>https://inbytes.co.mz/sobre/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/sobre/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/sobre/"/></url>
+  <url><loc>https://inbytes.co.mz/en/sobre/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/sobre/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/sobre/"/></url>
+  <url><loc>https://inbytes.co.mz/servicos/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/servicos/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/servicos/"/></url>
+  <url><loc>https://inbytes.co.mz/en/servicos/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/servicos/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/servicos/"/></url>
+  <url><loc>https://inbytes.co.mz/inteligencia-artificial/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/inteligencia-artificial/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/inteligencia-artificial/"/></url>
+  <url><loc>https://inbytes.co.mz/en/inteligencia-artificial/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/inteligencia-artificial/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/inteligencia-artificial/"/></url>
+  <url><loc>https://inbytes.co.mz/produtos/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/produtos/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/produtos/"/></url>
+  <url><loc>https://inbytes.co.mz/en/produtos/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/produtos/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/produtos/"/></url>
+  <url><loc>https://inbytes.co.mz/portfolio/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/portfolio/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/portfolio/"/></url>
+  <url><loc>https://inbytes.co.mz/en/portfolio/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/portfolio/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/portfolio/"/></url>
+  <url><loc>https://inbytes.co.mz/contactos/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/contactos/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/contactos/"/></url>
+  <url><loc>https://inbytes.co.mz/en/contactos/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/contactos/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/contactos/"/></url>
+  <url><loc>https://inbytes.co.mz/caderneta/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/caderneta/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/caderneta/"/></url>
+  <url><loc>https://inbytes.co.mz/en/caderneta/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/caderneta/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/caderneta/"/></url>
+  <url><loc>https://inbytes.co.mz/produtos/jmembros/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/produtos/jmembros/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/produtos/jmembros/"/></url>
+  <url><loc>https://inbytes.co.mz/en/produtos/jmembros/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/produtos/jmembros/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/produtos/jmembros/"/></url>
+  <url><loc>https://inbytes.co.mz/portais/agrario/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/portais/agrario/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/portais/agrario/"/></url>
+  <url><loc>https://inbytes.co.mz/en/portais/agrario/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/portais/agrario/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/portais/agrario/"/></url>
+  <url><loc>https://inbytes.co.mz/portais/casas/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/portais/casas/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/portais/casas/"/></url>
+  <url><loc>https://inbytes.co.mz/en/portais/casas/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/portais/casas/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/portais/casas/"/></url>
+  <url><loc>https://inbytes.co.mz/websites/sinpocaf/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/sinpocaf/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/sinpocaf/"/></url>
+  <url><loc>https://inbytes.co.mz/en/websites/sinpocaf/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/sinpocaf/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/sinpocaf/"/></url>
+  <url><loc>https://inbytes.co.mz/websites/sintrat/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/sintrat/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/sintrat/"/></url>
+  <url><loc>https://inbytes.co.mz/en/websites/sintrat/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/sintrat/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/sintrat/"/></url>
+  <url><loc>https://inbytes.co.mz/servicos/websites/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/servicos/websites/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/servicos/websites/"/></url>
+  <url><loc>https://inbytes.co.mz/en/servicos/websites/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/servicos/websites/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/servicos/websites/"/></url>
+  <url><loc>https://inbytes.co.mz/servicos/sistemas/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/servicos/sistemas/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/servicos/sistemas/"/></url>
+  <url><loc>https://inbytes.co.mz/en/servicos/sistemas/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/servicos/sistemas/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/servicos/sistemas/"/></url>
+  <url><loc>https://inbytes.co.mz/servicos/apps/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/servicos/apps/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/servicos/apps/"/></url>
+  <url><loc>https://inbytes.co.mz/en/servicos/apps/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/servicos/apps/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/servicos/apps/"/></url>
+  <url><loc>https://inbytes.co.mz/servicos/consultoria/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/servicos/consultoria/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/servicos/consultoria/"/></url>
+  <url><loc>https://inbytes.co.mz/en/servicos/consultoria/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/servicos/consultoria/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/servicos/consultoria/"/></url>
+  <url><loc>https://inbytes.co.mz/ficha/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/ficha/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/ficha/"/></url>
+  <url><loc>https://inbytes.co.mz/en/ficha/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/ficha/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/ficha/"/></url>
+  <url><loc>https://inbytes.co.mz/websites/sinpeoc/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/sinpeoc/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/sinpeoc/"/></url>
+  <url><loc>https://inbytes.co.mz/en/websites/sinpeoc/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/sinpeoc/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/sinpeoc/"/></url>
+  <url><loc>https://inbytes.co.mz/websites/sweetandsalt/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/sweetandsalt/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/sweetandsalt/"/></url>
+  <url><loc>https://inbytes.co.mz/en/websites/sweetandsalt/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/sweetandsalt/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/sweetandsalt/"/></url>
+  <url><loc>https://inbytes.co.mz/websites/indicofishfarm/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/indicofishfarm/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/indicofishfarm/"/></url>
+  <url><loc>https://inbytes.co.mz/en/websites/indicofishfarm/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/indicofishfarm/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/indicofishfarm/"/></url>
+  <url><loc>https://inbytes.co.mz/websites/gawane/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/gawane/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/gawane/"/></url>
+  <url><loc>https://inbytes.co.mz/en/websites/gawane/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/websites/gawane/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/websites/gawane/"/></url>
+  <url><loc>https://inbytes.co.mz/privacidade/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/privacidade/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/privacidade/"/></url>
+  <url><loc>https://inbytes.co.mz/en/privacidade/</loc><xhtml:link rel="alternate" hreflang="pt" href="https://inbytes.co.mz/privacidade/"/><xhtml:link rel="alternate" hreflang="en" href="https://inbytes.co.mz/en/privacidade/"/></url>
 </urlset>
