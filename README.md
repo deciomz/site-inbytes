@@ -79,3 +79,11 @@ Pré-visualização: python -m http.server 4200 --bind 127.0.0.1 --directory pub
 Verificações: node scripts/build-pages.mjs; node --test scripts/*.test.mjs. Ainda sem publicação desta revisão no VPS e sem push solicitado para esta versão.
 
 Abertura revista após feedback visual: imagem ampla, tipografia assimétrica sem palavras coloridas, chamada de contacto discreta e índice plano de três projetos. A captura do SINPOCAF mantém-se no índice; a imagem ferroviária de fundo é uma ilustração já existente, identificada no texto alternativo. Restantes páginas e banner de produtos preservados.
+
+## mAssociado — 14/11/2026
+
+Produto anteriormente apresentado como JMembros. Nome revisto no site e página própria com cadastro, geração de cartões, incidentes e contribuições. Conteúdo confirmado em src/massociado-content.md. URLs e contexto de contacto existentes preservados; sem alteração da API ou da configuração privada. Versões portuguesa e inglesa geradas com node scripts/build-pages.mjs.
+
+## Banner — 14/11/2026
+
+Cada destaque tem 10 segundos de leitura, com indicador circular de progresso no canto superior direito, integrado no botão de pausa. A pausa preserva o tempo restante; a seleção manual reinicia a contagem. O relógio fica suspenso quando o banner está fora de vista, o separador está oculto, o utilizador interage por teclado ou a imagem ainda carrega. Movimento reduzido começa em pausa, como anteriormente.
