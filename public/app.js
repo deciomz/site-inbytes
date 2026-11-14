@@ -139,7 +139,6 @@ function fichaPage(){return `<article class="fed" aria-labelledby="fed-title">
     </div>
     <div class="fed-value">
       <section class="fed-card fed-benefits"><h2>MENOS TRABALHO PARA A ESCOLA</h2><ul><li><span class="fed-tick" aria-hidden="true">✓</span><span>Menos tempo a passar dados para o computador.</span></li><li><span class="fed-tick" aria-hidden="true">✓</span><span>Dados dos alunos organizados num ficheiro Excel.</span></li><li><span class="fed-tick" aria-hidden="true">✓</span><span>Entrega dos dados todas as semanas.</span></li></ul></section>
-      <section class="fed-price" aria-label="Preço do serviço"><p class="fed-amount">3.500 MT</p><p class="fed-period">por mês, por escola</p><p class="fed-term">Pode contratar apenas um mês.</p></section>
     </div>
     <section class="fed-contact" aria-labelledby="fed-contact-title">
       <h2 id="fed-contact-title">FALE COM A INBYTES</h2>
